@@ -1,4 +1,4 @@
-FROM php:7
+FROM php:5.6-cli
 MAINTAINER Julian Waller <git@julusian.co.uk>
 
 ADD install-composer.sh /
